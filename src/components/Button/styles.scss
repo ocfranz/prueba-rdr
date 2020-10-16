@@ -1,0 +1,28 @@
+.simple-button {
+  border: none;
+  padding: 15px 20px;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 5px;
+
+  cursor: pointer;
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+  &:hover {
+    color: #ffffff;
+    background-color: rgb(255, 77, 71);
+  }
+  &--default {
+    background-color: rgb(255, 77, 71);
+    border: 1px solid rgb(255, 77, 71);
+    color: #ffffff;
+  }
+  &--outline {
+    background-color: #ffffff;
+    color: rgb(255, 77, 71);
+    border: 1px solid rgb(255, 77, 71);
+  }
+}

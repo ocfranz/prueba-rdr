@@ -1,0 +1,14 @@
+.membership-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  button {
+    width: 150px;
+    margin: 0px 5px;
+  }
+}
+.membership-list {
+  display: flex;
+  flex-wrap: wrap;
+}

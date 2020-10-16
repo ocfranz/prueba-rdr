@@ -1,0 +1,45 @@
+.membership-card {
+  width: 25%;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  &__wrapper {
+    background-color: #ffffff;
+    padding: 40px 24px 32px;
+    margin: 0px 5px;
+    text-align: center;
+  }
+  &__title {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  &__description {
+    opacity: 0.7;
+  }
+  &__price-yearly {
+    font-weight: bold;
+    opacity: 0.7;
+  }
+  .price-item {
+    font-size: 44px;
+    line-height: 48px;
+    font-weight: bold;
+    sub {
+      vertical-align: super;
+      font-size: 20px;
+    }
+  }
+  button {
+    width: 100%;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(255, 77, 71);
+    margin-top: 20px;
+    display: block;
+    text-transform: capitalize;
+    &:visited {
+      color: rgb(255, 77, 71);
+    }
+  }
+}

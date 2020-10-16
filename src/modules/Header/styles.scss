@@ -1,0 +1,22 @@
+.header {
+  width: 100%;
+  &__wrapper {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    a {
+      display: inline;
+      text-decoration: none;
+      margin: 0px 20px;
+      text-transform: capitalize;
+      &:visited {
+        color: #000000;
+      }
+      &:hover {
+        color: rgb(255, 77, 71);
+      }
+    }
+  }
+}
